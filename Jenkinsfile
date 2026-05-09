@@ -38,7 +38,7 @@ pipeline {
                     branches: [[name: "*/${params.BRANCH}"]],
                     extensions: [],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/ygminds73/Terraform-Automation.git'
+                        url: 'https://github.com/ashish-repository/Terraform-Jenkins-Pipeline.git'
                     ]]
                 )
             }
